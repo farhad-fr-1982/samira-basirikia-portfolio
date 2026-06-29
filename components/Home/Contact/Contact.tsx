@@ -21,19 +21,16 @@ const Contact = () => {
 
             <div className="mt-8 space-y-3">
               <div className="flex items-center justify-end group">
-                <p className="text-xl font-bold text-gray-400 ml-3 transition-colors duration-300 group-hover:text-cyan-300" dir="ltr">09123348012</p>
+                <p className="text-xl font-bold text-gray-400 ml-3 transition-colors duration-300 group-hover:text-cyan-300" dir="ltr">۰۹۳۵۷۰۰۹۷۴۲</p>
                 <BiPhone className="w-9 h-9 text-cyan-300 transition-transform duration-300 group-hover:scale-110" />
               </div>
-              <div className="flex items-center justify-end group">
-                <p className="text-xl font-bold text-gray-400 ml-3 transition-colors duration-300 group-hover:text-cyan-300" dir="ltr">09125128064</p>
-                <BiPhone className="w-9 h-9 text-cyan-300 transition-transform duration-300 group-hover:scale-110" />
-              </div>
+             
               <div className="flex items-center justify-end group">
                 <p className="text-xl font-bold text-gray-400 ml-3 transition-colors duration-300 group-hover:text-cyan-300" dir="ltr">samira.bk1360@gmail.com</p>
                 <BiEnvelope className="w-9 h-9 text-cyan-300 transition-transform duration-300 group-hover:scale-110" />
               </div>
               <div className="flex items-center justify-end group">
-                <p className="text-xl font-bold text-gray-400 ml-3 transition-colors duration-300 group-hover:text-cyan-300">تهران، استاد معین</p>
+                <p className="text-xl font-bold text-gray-400 ml-3 transition-colors duration-300 group-hover:text-cyan-300">تهران، منطقه غرب</p>
                 <BiMap className="w-9 h-9 text-cyan-300 transition-transform duration-300 group-hover:scale-110" />
               </div>
             </div>
@@ -56,14 +53,14 @@ const Contact = () => {
 
           <div className="w-full h-[400px] rounded-2xl overflow-hidden border border-cyan-500/20">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.5!2d51.3694!3d35.7219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8e00b0b0b0b0b0%3A0x0!2sTehran!5e0!3m2!1sfa!2sir!4v1719234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13007.5!2d51.3300!3d35.7500!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3f8dfc28c2e56931%3A0x36461c58c80b5de9!2sShahrake%20Gharb%2C%20Tehran!5e0!3m2!1sfa!2sir!4v1719234567890"
               width="100%"
               height="100%"
               style={{ border: 0 }}
               allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-              title="نقشه تهران - استاد معین"
+              title="نقشه منطقه غرب تهران"
             />
           </div>
 
