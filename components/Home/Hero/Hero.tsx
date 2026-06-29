@@ -37,7 +37,7 @@ const Hero = () => {
                 <div className="text-lg sm:text-2xl md:text-3xl lg:text-4xl mt-2 text-center font-bold tracking-wide min-h-[80px]">
                     <Typewriter options={{
                         strings: [
-                            'دارای مدرک ممتاز خوشنویسی از انجمن خوشنویسان ایران',
+                            'نقاش و خوشنویس',
                             'عضو انجمن خوشنویسان ایران',
                             'مدرس خط نستعلیق و نقاشی سبک رئال',
                             'هنرمند تذهیب با ۸ سال تجربه',
