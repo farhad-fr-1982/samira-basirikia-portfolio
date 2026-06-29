@@ -1,88 +1,46 @@
 import Image from 'next/image';
-import React from 'react'
+
+const projects = [
+    { id: 1, src: '/images/nagsh1.jpg', alt: 'نقاشی اول', title: 'نقاشی رنگ روغن', tags: 'نقاشی، هنرهای تجسمی' },
+    { id: 2, src: '/images/nagsh2.jpg', alt: 'نقاشی دوم', title: 'نقاشی آبرنگ', tags: 'نقاشی، هنرهای تجسمی' },
+    { id: 3, src: '/images/tahzib1.jpg', alt: 'تهذیب اول', title: 'تهذیب سنتی', tags: 'تهذیب، هنر اسلامی' },
+    { id: 4, src: '/images/tahzib2.jpg', alt: 'تهذیب دوم', title: 'تهذیب تذهیب', tags: 'تهذیب، هنر اسلامی' },
+    { id: 5, src: '/images/khat1.jpg', alt: 'خطاطی اول', title: 'خطاطی نستعلیق', tags: 'خطاطی، کالیگرافی' },
+    { id: 6, src: '/images/khat2.jpg', alt: 'خطاطی دوم', title: 'خطاطی ثلث', tags: 'خطاطی، کالیگرافی' },
+];
 
 const Projects = () => {
     return (
         <div className="pt-16 pb-16 bg-gradient-to-b from-[#0f0c29] via-[#302b63] to-[#24243e]">
             <h1 className="text-center text-2xl md:text-4xl xl:text-5xl font-bold text-white">
-                نمونه‌ای از آخرین <br />
-                <span className="text-cyan-300">پروژه‌ها</span>
+                نمونه‌ای از آخرین <span className="text-cyan-300">آثار</span>
             </h1>
-            <div className="w-[90%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-6 mt-12">
-                {/* پروژه اول */}
-                <div className="overflow-hidden rounded-lg border border-white/10 hover:border-cyan-200/50 transition-all duration-300 flex flex-col h-full">
-                    <div className="relative w-full h-80 overflow-hidden">
-                        <Image
-                            src='/images/pr3.png'
-                            alt="پروژه یک"
-                            fill
-                            className="object-cover hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-                    <div className="p-4 flex-1">
-                        <h1 className="text-xl sm:text-2xl font-semibold text-white">
-                            داشبورد مالی مدرن
-                        </h1>
-                        <p className="pt-2 font-medium text-white/80">اپلیکیشن، پنل ادمین اختصاصی</p>
-                    </div>
-                </div>
 
-                {/* پروژه دوم */}
-                <div className="overflow-hidden rounded-lg border border-white/10 hover:border-cyan-200/50 transition-all duration-300 flex flex-col h-full">
-                    <div className="relative w-full h-80 overflow-hidden">
-                        <Image
-                            src='/images/pr2.png'
-                            alt="پروژه دو"
-                            fill
-                            className="object-cover hover:scale-105 transition-transform duration-500"
-                        />
+            <div className="w-[90%] mx-auto grid grid-cols-2 md:grid-cols-3 gap-4 mt-12">
+                {projects.map((project) => (
+                    <div
+                        key={project.id}
+                        className="overflow-hidden rounded-lg border border-white/10 hover:border-cyan-200/50 transition-all duration-300 flex flex-col"
+                    >
+                        <div className="relative w-full h-64 overflow-hidden">
+                            <Image
+                                src={project.src}
+                                alt={project.alt}
+                                fill
+                                className="object-cover hover:scale-105 transition-transform duration-500"
+                            />
+                        </div>
+                        <div className="p-3">
+                            <h3 className="text-sm sm:text-base font-semibold text-white">
+                                {project.title}
+                            </h3>
+                            <p className="pt-1 text-xs font-medium text-white/80">{project.tags}</p>
+                        </div>
                     </div>
-                    <div className="p-4 flex-1">
-                        <h1 className="text-xl sm:text-2xl font-semibold text-white">
-                            اپلیکیشن مدیریت پروژه
-                        </h1>
-                        <p className="pt-2 font-medium text-white/80">برنامه‌نویسی، توسعه وب</p>
-                    </div>
-                </div>
-
-                {/* پروژه سوم */}
-                <div className="overflow-hidden rounded-lg border border-white/10 hover:border-cyan-200/50 transition-all duration-300 flex flex-col h-full">
-                    <div className="relative w-full h-80 overflow-hidden">
-                        <Image
-                            src='/images/pr1.png'
-                            alt="پروژه سه"
-                            fill
-                            className="object-cover hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-                    <div className="p-4 flex-1">
-                        <h1 className="text-xl sm:text-2xl font-semibold text-white">
-                            وب‌سایت فروشگاهی
-                        </h1>
-                        <p className="pt-2 font-medium text-white/80">طراحی، توسعه</p>
-                    </div>
-                </div>
-
-                {/* پروژه چهارم */}
-                <div className="overflow-hidden rounded-lg border border-white/10 hover:border-cyan-200/50 transition-all duration-300 flex flex-col h-full">
-                    <div className="relative w-full h-80 overflow-hidden">
-                        <Image
-                            src='/images/p3.jpg'
-                            alt="پروژه چهار"
-                            fill
-                            className="object-cover hover:scale-105 transition-transform duration-500"
-                        />
-                    </div>
-                    <div className="p-4 flex-1">
-                        <h1 className="text-xl sm:text-2xl font-semibold text-white">
-                            پنل مدیریت محتوا
-                        </h1>
-                        <p className="pt-2 font-medium text-white/80">سیستم مدیریت، پنل ادمین</p>
-                    </div>
-                </div>
+                ))}
             </div>
         </div>
     );
 };
 
-export default Projects
+export default Projects;

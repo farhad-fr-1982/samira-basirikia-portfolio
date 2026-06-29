@@ -15,22 +15,18 @@ const Resume = () => {
                         <ResumeCard
                             Icon={FaAward}
                             role="دارای مدرک ممتاز خوشنویسی از انجمن خوشنویسان ایران در زمینه خط نستعلیق و شکسته نستعلیق"
-                            date=""
                         />
                         <ResumeCard
                             Icon={FaAward}
                             role="دوره فوق ممتاز خوشنویسی نستعلیق - عضو انجمن خوشنویسان ایران"
-                            date=""
                         />
                         <ResumeCard
                             Icon={MdMuseum}
                             role="شرکت در ۴ نمایشگاه گروهی خوشنویسی و نقاشیخط"
-                            date=""
                         />
                         <ResumeCard
                             Icon={FaPaintBrush}
                             role="فراگیری هنر تذهیب به مدت ۸ سال و طراحی تذهیب نمایشگاه‌های انفرادی"
-                            date=""
                         />
                     </div>
                 </div>
@@ -43,22 +39,18 @@ const Resume = () => {
                         <ResumeCard
                             Icon={FaPen}
                             role="گذراندن دوره‌های هنر نقاشی خط به شکل کلاسیک و مدرن"
-                            date=""
                         />
                         <ResumeCard
                             Icon={MdMuseum}
                             role="برگزاری نمایشگاه انفرادی خوشنویسی و تذهیب - دی ماه ۱۳۹۲"
-                            date="دی ۱۳۹۲"
                         />
                         <ResumeCard
                             Icon={MdMuseum}
                             role="برگزاری نمایشگاه انفرادی نقاشی - فرهنگسرای ابن سینا"
-                            date="آبان ۱۴۰۱"
                         />
                         <ResumeCard
                             Icon={MdMuseum}
                             role="شرکت در نمایشگاه بانوان هنرمند کلک مستوران - برج آزادی"
-                            date="۱۴۰۳"
                         />
                     </div>
                 </div>
