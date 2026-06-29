@@ -63,7 +63,7 @@ const Footer = () => {
                 <BiEnvelope className="w-5 h-5 text-cyan-300" />
               </div>
               <div className="flex items-center justify-end gap-2">
-                <span>تهران، استاد معین</span>
+                <span>تهران، منطقه غرب</span>
                 <BiMap className="w-5 h-5 text-cyan-300" />
               </div>
             </div>
