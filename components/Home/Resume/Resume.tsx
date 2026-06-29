@@ -14,7 +14,7 @@ const Resume = () => {
                     <div className="mt-10 space-y-4">
                         <ResumeCard
                             Icon={FaAward}
-                            role="دارای مدرک ممتاز خوشنویسی از انجمن خوشنویسان ایران در زمینه خط نستعلیق و شکسته نستعلیق"
+                            role=" مدرس دوره های خطاطی و نقاشی کلاسیک و مدرن و قبول سفارش"
                         />
                         <ResumeCard
                             Icon={FaAward}
