@@ -1,12 +1,12 @@
 import Image from 'next/image';
 
 const projects = [
-    { id: 1, src: '/images/nagsh1.jpg', alt: 'نقاشی اول', title: 'نقاشی رنگ روغن', tags: 'نقاشی، هنرهای تجسمی' },
-    { id: 2, src: '/images/nagsh2.jpg', alt: 'نقاشی دوم', title: 'نقاشی آبرنگ', tags: 'نقاشی، هنرهای تجسمی' },
-    { id: 3, src: '/images/tahzib1.jpg', alt: 'تهذیب اول', title: 'تهذیب سنتی', tags: 'تهذیب، هنر اسلامی' },
-    { id: 4, src: '/images/tahzib2.jpg', alt: 'تهذیب دوم', title: 'تهذیب تذهیب', tags: 'تهذیب، هنر اسلامی' },
-    { id: 5, src: '/images/khat1.jpg', alt: 'خطاطی اول', title: 'خطاطی نستعلیق', tags: 'خطاطی، کالیگرافی' },
-    { id: 6, src: '/images/khat2.jpg', alt: 'خطاطی دوم', title: 'خطاطی ثلث', tags: 'خطاطی، کالیگرافی' },
+  { id: 1, src: '/images/nagsh1.jpg', alt: 'نقاشی رنگ روغن اثر سمیرا بصیری کیا', title: 'نقاشی رنگ روغن', tags: 'نقاشی، هنرهای تجسمی' },
+  { id: 2, src: '/images/nagsh2.jpg', alt: 'نقاشی آبرنگ اثر سمیرا بصیری کیا', title: 'نقاشی آبرنگ', tags: 'نقاشی، هنرهای تجسمی' },
+  { id: 3, src: '/images/tahzib1.jpg', alt: 'تهذیب سنتی اثر سمیرا بصیری کیا', title: 'تهذیب سنتی', tags: 'تهذیب، هنر اسلامی' },
+  { id: 4, src: '/images/tahzib2.jpg', alt: 'تذهیب اثر سمیرا بصیری کیا', title: 'تهذیب تذهیب', tags: 'تهذیب، هنر اسلامی' },
+  { id: 5, src: '/images/khat1.jpg', alt: 'خطاطی نستعلیق اثر سمیرا بصیری کیا', title: 'خطاطی نستعلیق', tags: 'خطاطی، کالیگرافی' },
+  { id: 6, src: '/images/khat2.jpg', alt: 'خطاطی ثلث اثر سمیرا بصیری کیا', title: 'خطاطی ثلث', tags: 'خطاطی، کالیگرافی' },
 ];
 
 const Projects = () => {
